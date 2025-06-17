@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="Gena.css">
+</head>
+<style>
+    .banner {
+        background: url("https://i.pinimg.com/736x/31/92/7f/31927f7d8d9b17bafe79ec3302183365.jpg") no-repeat center center;
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: #fff;
+    }
+
+    .lingkaran {
+        display: inline-block;
+        border-radius: 50%;
+        width: 150px;
+        margin: auto;
+        height: 150px;
+        color: #fff;
+        background-color: #dc3545;
+    }
+
+    .lingkaran i {
+        position: relative;
+        top: 30px;
+    }
+
+    .crop-img {
+        object-fit: cover;
+    }
+
+    .tim img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+        border: 10px solid #cccccc;
+    }
+
+    a.social {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #333;
+        line-height: 40px;
+    }
+
+    .client img {
+        height: auto;
+        max-height: 50px;
+    }
+
+    .kontak {
+        background: url("https://images.unsplash.com/photo-1581091012184-5c70925e3673?auto=format&fit=crop&w=1950&q=80") no-repeat center center;
+        background-size: cover;
+        padding-bottom: 20%;
+        padding-top: 20%;
+        color: #fff;
+    }
+</style>
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">GenaWEB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#layanan">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portofolio">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#staff">Staff</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="container-fluid banner">
+        <div class="container text-center">
+            <h4 class="display-6">WELCOME TO MY COMPANY!</h4>
+            <h3 class="display-1">Uprage ur IMAN!</h3>
+            <a href="#layanan"><button type="button" class="btn btn-danger btn-lg">Cek Layanan</button></a>
+        </div>
+    </div>
+    <!-- Layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+        <div class="container text-center">
+            <h2 class="display-3" id="layanan">Layanan</h2>
+            <p></p>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fa-solid fa-code fa-5x"></i></span>
+                    <h3 class="mt-3">learn islam</h3>
+                    <p>Belajar islam lebih dalam</p>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fa-solid fa-palette fa-5x"></i></span>
+                    <h3 class="mt-3">Learn quran</h3>
+                    <p>Belajar mengenal huruf dan makna al-quran</p>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fa-solid fa-network-wired fa-5x"></i></span>
+                    <h3 class="mt-3">History islam</h3>
+                    <p>Memahami perjuangan para Nabi dan pemuka islam</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portofolio -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-3" id="portofolio">Portofolio</h2>
+            <p>Beberapa layanan yang kami sajikan</p>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/f2/56/56/f25656e9fadb6b0d3d0e5f5322459387.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Quran online</h5>
+                            <p class="card-text">Membaca al-quran memalui gadget</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                    <img src="https://i.pinimg.com/736x/ac/c6/8c/acc68ce29ee2f7ece21e0f39b94d192f.jpg"class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Tajwid</h5>
+                            <p class="card-text">Belajar huruf serta pengenalan tajwid yang benar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="ceramahhd.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Ceramah online</h5>
+                            <p class="card-text">Kumpulan ceramah para ustad </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="kitabhd.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Kitab islam</h5>
+                            <p class="card-text">Pembahasan kitab-kitab karangan ulama</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="sejarahhd.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Sejarah islam</h5>
+                            <p class="card-text">Penjelasan tentang sejarah islam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img">
+                        <img src="kisahhd.jpg" class="card-img-top" width="200" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Kisah para nabi</h5>
+                            <p class="card-text">Kisah para auliya Allah dengan reverensi dari kitab-kitab shahih</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tentang -->
+     <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+            <p class="text-center">Keunggulan kami</p>
+            <div class="clearfix pt-5">
+                <img src="pesantrenhd.jpg" class="col-md-6 float-md-end mb-3 crop-img" width="300" height="300">
+                <p>"Kami adalah alumni daripada pondok pesantren yang ingin menyebarkan islam melalui media elektronik."</p>
+                <p>PT [Gena web] berfokus kepada pengembangan aplikasi yang selalui memperbarui kebutuhan konsumen untuk mengetahui islam lebih dalam.</p>
+                <p>Kami adalah perusahaan IT yang berinovasi, selalu mencari solusi teknologi terbaru untuk membantu klien mencapai kepuasan mereka." </p>
+                <p>Dengan pengalaman lebih dari 10 tahun, kami telah membangun reputasi sebagai penyedia layanan IT yang berkualitas tinggi dan terpercaya. Kami selalu berkomitmen untuk memberikan solusi yang inovatif dan efektif.</p>
+            </div>
+        </div>
+     </div>
+     <!-- Tim -->
+      <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-3" id="staff">Tim Kami</h2>
+            <p>Kami alumni pondok pesantren yang bervisi mengembangkan islam lewat media elektronik</p>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4 text-center tim">
+                    <img src="rian.jpg" class="rounded-circle mb-3">
+                    <h4>Ryan saputra</h4>
+                    <p>Web Designer</p>
+                    <p>
+                        <a href="" class="social"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="" class="social"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-4 text-center tim">
+                    <img src="gena.jpg" class="rounded-circle mb-3">
+                    <h4>Muhamamad Rizqon Sagena</h4>
+                    <p>founder GenaWEB</p>
+                    <p>
+                        <a href="" class="social"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="" class="social"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-4 text-center tim">
+                    <img src="agung.jpg" class="rounded-circle mb-3">
+                    <h4>Agung pribadi</h4>
+                    <p>Data scientist</p>
+                    <p>
+                        <a href="" class="social"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="" class="social"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Client -->
+       <div class="container-fluid client pt-5 pb-5">
+        <div class="container text-center">
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col">
+                    <img src="https://img.icons8.com/ios_filled/512/microsoft.png">
+                </div>
+                <div class="col">
+                    <img src="https://img.icons8.com/ios_filled/512/facebook-new.png">
+                </div>
+                <div class="col">
+                    <img src="https://cdn-icons-png.flaticon.com/256/61/61109.png">
+                </div>
+                <div class="col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt62s_W1Q9ktI919TRQ3Zd8W-6lAPl72jpKA&s">
+                </div>
+                <div class="col">
+                    <img src="https://pngimg.com/d/ibm_PNG19655.png">
+                </div>
+            </div>
+        </div>
+       </div>
+      <!-- Kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+            <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+            <p class="text-center">Mereka para ahli perusahaan kami!</p>
+            <div class="row pb-3">
+                <div class="col-md-6">
+                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama">
+                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Email">
+                    <input class="form-control form-control-lg" type="text" placeholder="No. Phone">
+                </div>
+                <div class="col-md-6">
+                    <textarea class="form-control form-control-lg" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+                <button type="button" class="btn btn-danger btn-lg">Kirim Pesan</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center pt-5 pb-5">
+        All Rights Reserved &copy; 2025
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
